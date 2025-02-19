@@ -70,17 +70,26 @@ Exemples de paramètres configurables :
   - Résolution écran
   - Qualité graphique
 
-### Création de personnage d'un jeu vidéo
+### Structure organisationnelle d'entreprise
 
-Dans un jeu vidéo de type RPG ou jeu d'aventure, vous avez besoin de créer différents types de personnages :
+Dans une grande entreprise, on peut trouver les départements et sous-départements suivants :
 
-- Guerrier
-- Magicien
-- Archer
+- Direction Générale
+  - Secrétariat général
+  - Département technique
+    - IT
+    - Web
+  - Département commercial
+    - Ventes
+    - Achats
+  - Département financier
+    - RH
+    - Comptabilité
+    - Administration
 
-Ces personnages partagent le même comportement : "Attaquer". Mais ce ne sera pas la même attaque selon que le personnage soit un Guerrier, un Magicien ou un Archer.
+Chaque département et sous-département peuvent avoir plusieurs employés.
 
-On doit pouvoir ajouter d'autres personnages facilement en déléguant la création des personnages à une classe.
+Le programme doit pouvoir transcrire l'organigramme de cette entreprise.
 
 ### Interface de contrôle d'un jeu
 
@@ -142,23 +151,14 @@ Je pourrais donc me commander un café au lait de coco, Chantilly et Saveur Vani
 
 Notre programme doit pouvoir donc permettre de composer une boisson avec des options différentes de manière dynamique sans avoir besoin de modifier sa structure de base.
 
-### Structure organisationnelle d'entreprise
+### Création de personnage d'un jeu vidéo
 
-Dans une grande entreprise, on peut trouver les départements et sous-départements suivants :
+Dans un jeu vidéo de type RPG ou jeu d'aventure, vous avez besoin de créer différents types de personnages :
 
-- Direction Générale
-  - Secrétariat général
-  - Département technique
-    - IT
-    - Web
-  - Département commercial
-    - Ventes
-    - Achats
-  - Département financier
-    - RH
-    - Comptabilité
-    - Administration
+- Guerrier
+- Magicien
+- Archer
 
-Chaque département et sous-département peuvent avoir plusieurs employés.
+Ces personnages partagent le même comportement : "Attaquer". Mais ce ne sera pas la même attaque selon que le personnage soit un Guerrier, un Magicien ou un Archer.
 
-Le programme doit pouvoir transcrire l'organigramme de cette entreprise.
+On doit pouvoir ajouter d'autres personnages facilement en déléguant la création des personnages à une classe.
