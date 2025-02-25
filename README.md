@@ -127,7 +127,7 @@ Il faudrait que notre programme puisse adapter nos controlleurs pour qu'ils puis
 Dans un super café gourmant, on peut commander différentes boissons, et demander 0 à plusieurs options pour personnaliser notre boisson.
 
 Chaque boisson à un coût et une description.
-Chaque topping à un supplément et une description.
+Chaque option aura un coût et une description.
 
 Imaginons que nous avons une boisson café à 4€. Nous pourrions la personnaliser avec des options comme :
 
