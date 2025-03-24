@@ -1,4 +1,4 @@
-# TP noté sur les designs patterns
+# TP sur les designs patterns
 
 - Dans chacun des scénarios, choisissez un design pattern adapté et écrivez le pseudo-code correspondant au scénario.
 - Vous pouvez utiliser le langage de votre choix (Python, JavaScript, C#, Java, etc.) pour écrire les exercices.
@@ -10,7 +10,7 @@
 **Scénario** :
 Dans une application de gestion scolaire, plusieurs composants ont besoin d'accéder à la configuration centrale (chemin des fichiers, paramètres de connexion). Nous devons garantir qu'une seule instance existe et soit accessible partout.
 
-**Pseudo-Code pattern Singleton** :
+**Pseudo-Code PhP pour un pattern Singleton** :
 
 ```php
 class Config extends Singleton
