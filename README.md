@@ -55,7 +55,7 @@ print_r($config2->getValue('log_path') === 'log.txt'); // Devrait être à vrai
 
 ## Scénarios
 
-### Gestionnaire de Paramètres de Jeu
+### Scénario A: Gestionnaire de Paramètres de Jeu
 
 Dans un jeu vidéo, vous avez besoin de gérer les paramètres globaux du jeu de manière unique et centralisée.\
 Exemples de paramètres configurables :
@@ -70,7 +70,7 @@ Exemples de paramètres configurables :
   - Résolution écran
   - Qualité graphique
 
-### Structure organisationnelle d'entreprise
+### Scénario B: Structure organisationnelle d'entreprise
 
 Dans une grande entreprise, on peut trouver les départements et sous-départements suivants :
 
@@ -91,7 +91,7 @@ Chaque département et sous-département peuvent avoir plusieurs employés.
 
 Le programme doit pouvoir transcrire l'organigramme de cette entreprise.
 
-### Interface de contrôle d'un jeu
+### Scénario C: Interface de contrôle d'un jeu
 
 Un jeu doit pouvoir être contrôlé par plusieurs type de contrôleur : Clavier, Manette Xbox, Manette PS5.
 
@@ -122,7 +122,7 @@ Sauf que nos controlleurs ne sont pas pareil d'un controlleur à un autre :
 
 Il faudrait que notre programme puisse adapter nos controlleurs pour qu'ils puissent se comporter comme un `ControlerActions`.
 
-### Personnalisation de boissons
+### Scénario D: Personnalisation de boissons
 
 Dans un super café gourmant, on peut commander différentes boissons, et demander 0 à plusieurs options pour personnaliser notre boisson.
 
@@ -151,7 +151,7 @@ Je pourrais donc me commander un café au lait de coco, Chantilly et Saveur Vani
 
 Notre programme doit pouvoir donc permettre de composer une boisson avec des options différentes de manière dynamique sans avoir besoin de modifier sa structure de base.
 
-### Création de personnage d'un jeu vidéo
+### Scénario E: Création de personnage d'un jeu vidéo
 
 Dans un jeu vidéo de type RPG ou jeu d'aventure, vous avez besoin de créer différents types de personnages :
 
