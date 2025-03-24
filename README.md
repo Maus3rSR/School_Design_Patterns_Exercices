@@ -1,7 +1,7 @@
 # TP sur les designs patterns
 
 - Dans chacun des scénarios, choisissez un design pattern adapté et écrivez le pseudo-code correspondant au scénario.
-- Vous pouvez utiliser le langage de votre choix (Python, JavaScript, C#, Java, etc.) pour écrire les exercices.
+- Par défaut nous utilisons le langage TypeScript. Néanmoins vous pouvez utiliser le langage de votre choix (Python, JavaScript, C#, Java, etc.) pour écrire les exercices.
 - Le code n'a pas forcément besoin d'être fonctionnel, le but est d'écrire du pseudo-code représentant un design pattern. Cependant cela est mieux si le langage ne relève pas d'erreur à l'écriture du code dans le cas des langages typés.
 - Pour chaque design pattern implémenté, écrivez un exemple d'utilisation.
 
